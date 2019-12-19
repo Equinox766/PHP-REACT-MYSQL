@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.TablaAutos {
+    float: left;
+    width: 80%;
+    margin: 30px 10%;
+    text-align: center;
+
+}
+
+.TablaAutos thead tr:first-child {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.TablaAutos tbody tr:nth-child(2n -1) {
+    background-color: #CCC;
+    
+}
